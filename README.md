@@ -1,40 +1,90 @@
-!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Barbearia Alura</title>
-		<link rel="stylesheet" href="style.css">
+!<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><style></style></head><body><u></u>
 
-		<style>
-			
-		</style>
-	</head>
+	
+		
+		
+		
+	
 
-	<body>
-		<h1 style="text-align: center">Sobre a Barbearia Alura</h1>
- 
-		<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+	<div>
+		<header>
+			<h1 class="m_titulo-principal">Barbearia Alura</h1>
+		</header>
+		<img id="m_banner" src="https://ci5.googleusercontent.com/proxy/ZkT9bwK_GR65xSlOyE-_vm74RBXVY5HeuL6ZFeUD8SJfZ_15=s0-d-e1-ft#http://banner.jpg">
+		<div class="m_principal">
+			<h2 class="m_titulo-centralizado">Sobre a Barbearia Alura</h2>
+	 
+			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-		<p style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+			<p id="m_missao"><em>Nossa missão é: <strong>&quot;Proporcionar auto-estima e qualidade de vida aos clientes&quot;</strong>.</em></p>
 
-		<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-	</body>
-</html>boby{
-    background: #726262
+			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+		</div>
+
+		<div class="m_beneficios">
+			<h3 class="m_titulo-centralizado">Benefícios</h3>
+
+			<ul>
+				<li class="m_itens">Atendimento aos Clientes</li>
+				<li class="m_itens">Espaço diferenciado</li>
+				<li class="m_itens">Localização</li>
+				<li class="m_itens">Profissionais Qualificados</li>
+			</ul>
+
+			<img src="https://ci5.googleusercontent.com/proxy/ukqTy6uMhD3anGxLAfkTEqkmxMsLyB6ZOByQU-2ArO4k3wkf9DqtBg=s0-d-e1-ft#http://beneficios.jpg" class="m_imagembeneficios">
+		</div>
+	</div>
+CSS
+</body></html>
+body {
+	
 }
-    
-    h1 {
-        text-aling: center
-    }
- 
- p{
-        text-aling: center;
-       }
-    
-       #missão {
-        front-size:20px
-       }
 
-      em strong {
-        color: #FF0000;
-       }
+#banner {
+	width:100%;
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
