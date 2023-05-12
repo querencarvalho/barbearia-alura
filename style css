@@ -1,0 +1,61 @@
+<!DOCTYPE html>#banner {
+	width:100%;
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
+    </head>
+    <body>
+        <header>
+            <h1><img src="logo.png"></h1>
+
+            <ul>
+                <li><a hrf="index.html"Home></a></li>
+                <li><a href="Produtos.html"></a></li>
+                <li><a href="contato.html>contados</li>
+            </ul>
+        </header>
+    </body>
+</html>
